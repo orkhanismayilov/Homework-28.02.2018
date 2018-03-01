@@ -5,3 +5,10 @@ C:\Code\2018\28.02.2018\Wage Tax\Wage Tax\obj\Debug\Wage Tax.csprojResolveAssemb
 C:\Code\2018\28.02.2018\Wage Tax\Wage Tax\obj\Debug\Wage Tax.csproj.CoreCompileInputs.cache
 C:\Code\2018\28.02.2018\Wage Tax\Wage Tax\obj\Debug\Wage Tax.exe
 C:\Code\2018\28.02.2018\Wage Tax\Wage Tax\obj\Debug\Wage Tax.pdb
+C:\Code\2018\28.02.2018\Homework\Wage Tax\Wage Tax\bin\Debug\Wage Tax.exe.config
+C:\Code\2018\28.02.2018\Homework\Wage Tax\Wage Tax\bin\Debug\Wage Tax.exe
+C:\Code\2018\28.02.2018\Homework\Wage Tax\Wage Tax\bin\Debug\Wage Tax.pdb
+C:\Code\2018\28.02.2018\Homework\Wage Tax\Wage Tax\obj\Debug\Wage Tax.csprojResolveAssemblyReference.cache
+C:\Code\2018\28.02.2018\Homework\Wage Tax\Wage Tax\obj\Debug\Wage Tax.csproj.CoreCompileInputs.cache
+C:\Code\2018\28.02.2018\Homework\Wage Tax\Wage Tax\obj\Debug\Wage Tax.exe
+C:\Code\2018\28.02.2018\Homework\Wage Tax\Wage Tax\obj\Debug\Wage Tax.pdb

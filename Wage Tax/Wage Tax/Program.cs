@@ -10,8 +10,9 @@ namespace Wage_Tax
     {
         static void Main(string[] args)
         {
-            WageTax wt = new WageTax(DailyS: 38.5, WorkD: 12);
-            Console.WriteLine(wt.Tax);
+            WageTax wt = new WageTax(DailyS: 45, WorkD: 12);
+            Console.WriteLine("Tax: " + wt.Tax);
+            Console.WriteLine("Profit: " + wt.Profit);
         }
     }
 
@@ -19,14 +20,24 @@ namespace Wage_Tax
     {
         public double DailyS { get; set; }
         public int WorkD { get; set; }
-        private string tax { get; set; }
+        private double tax { get; set; }
+        private double profit { get; set; }
 
-        public string Tax
+        public double Tax
         {
             get
             {
                 this.TaxCalc();
                 return this.tax;
+            }
+        }
+
+        public double Profit
+        {
+            get
+            {
+                this.TaxCalc();
+                return this.profit;
             }
         }
 
@@ -43,15 +54,16 @@ namespace Wage_Tax
                 double total = DailyS * WorkD;
                 if (total < 1000)
                 {
-                    tax = "Tax: " + (total * 0.18);
+                    tax = total * 0.18;
                 }else if (total > 1000)
                 {
-                    tax = "Tax: " + (total - 1000) * 0.04;
+                    tax = (total - 1000) * 0.04;
                 }
+                profit = total - tax;
             }
             else
             {
-                tax = "Invalid inputs";
+                Console.WriteLine("Invalid inputs");
             }
         }
     }
